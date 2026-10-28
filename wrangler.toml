@@ -1,0 +1,13 @@
+name = "kopi-waras-pos"
+main = "worker.ts"
+compatibility_date = "2026-10-28"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kopi-waras-pos"
+database_id = "73e1021b-63b1-4ff3-9757-9c753ea9d839"
+
