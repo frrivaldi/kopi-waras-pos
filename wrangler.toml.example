@@ -1,0 +1,11 @@
+name = "kopi-waras-pos"
+compatibility_date = "2026-10-28"
+pages_build_output_dir = "dist"
+
+# Copy this file to wrangler.toml after creating the D1 database.
+# Replace the placeholder with the database ID from Cloudflare.
+[[d1_databases]]
+binding = "DB"
+database_name = "kopi-waras-pos"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
