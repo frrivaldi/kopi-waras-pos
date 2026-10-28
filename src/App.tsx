@@ -443,7 +443,7 @@ function App() {
       <div className="brand"><div className="brand-mark"><Coffee size={20} /></div><div><strong>KOPI WARAS</strong><span>Point of Sale</span></div></div>
       <div className="store-label">WORKSPACE</div>
       <nav>{navItems.map(item => <button key={item.id} aria-label={item.label} className={'nav-link ' + (page === item.id ? 'selected' : '')} onClick={() => setPage(item.id)}><item.icon size={18} /><span>{item.label}</span>{item.id === 'bahan' && lowStock.length > 0 && <i>{lowStock.length}</i>}</button>)}</nav>
-      <div className="sidebar-bottom"><div className="online-dot" /><div><strong>Demo lokal</strong><span>Data tersimpan di perangkat</span></div></div>
+      <div className="sidebar-bottom"><div className="online-dot" /><div><strong>Cloudflare D1</strong><span>Data tersinkron antar perangkat</span></div></div>
     </aside>
 
     <main className="main-area">
